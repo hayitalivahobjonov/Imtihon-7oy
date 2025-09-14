@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.light {
+  background: #fff;
+  color: #000;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.dark {
+  background: #222;
+  color: #fff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  gap: 5px;
+  margin: 15px 0;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  padding: 6px 10px;
+}
+
+.alert {
+  background: #4caf50;
+  color: white;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
